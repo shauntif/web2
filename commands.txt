@@ -53,9 +53,13 @@ git branch -d branchName  - DELETE branch
 
 touch filename  - create file
 
+git rebase master		merge current branch with all of master changes.
+
+
+
 //Merging merge into current branch
 git merge outsideBranch
-
+git merge bbbb   --no-ff    no fast forward
 
 //Ignore and config
 vi .gitignore
@@ -64,12 +68,16 @@ vi .gitignore
 
 git config --global core.excludesfiles ~/.gitignore
 
-
-
-
 .git directory has everything
 
 
+//Merge conflicts
+text editor
+
+
+//pretty log shortcut
+http://www.jukie.net/bart/blog/pimping-out-git-log
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
 
 
