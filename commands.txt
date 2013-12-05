@@ -1,0 +1,5 @@
+Git training
+
+
+git mv - move
+git add -A  add files that are deleted
