@@ -1,4 +1,9 @@
 Git training
+zshell
+http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
+curl -L github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+
 
 git [--version] [--help] [-c name=value]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
