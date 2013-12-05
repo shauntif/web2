@@ -3,3 +3,25 @@ Git training
 
 git mv - move
 git add -A  add files that are deleted
+git add .   add everything
+git commit -m "added files"
+git rm    remove
+git lg   - log
+
+//Ignore and config
+vi .gitignore
+
+~/.gitconfig
+
+git config --global core.excludesfiles ~/.gitignore
+
+
+
+
+.git directory has everything
+
+
+
+
+
+
