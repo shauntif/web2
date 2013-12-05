@@ -41,6 +41,9 @@ git commit -m "added files"
 git commit -am "dffdgdfg"   add and commit
 git rm    remove
 git lg   - log
+git diff			diff from unstaged
+git diff --staged  diff from staged
+git diff HEAD everything from the head 
 
 git checkout -b test	 checkout and add new branch
 
